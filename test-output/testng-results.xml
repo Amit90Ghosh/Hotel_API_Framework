@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-20T12:44:38 IST" name="Suite" finished-at="2023-04-20T12:45:07 IST" duration-ms="28681">
+    <groups>
+    </groups>
+    <test started-at="2023-04-20T12:44:38 IST" name="Test" finished-at="2023-04-20T12:45:07 IST" duration-ms="28681">
+      <class name="api.tests.BookingTests">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.tests.BookingTests@8f4ea7c]" started-at="2023-04-20T12:44:53 IST" name="setupData" finished-at="2023-04-20T12:44:57 IST" duration-ms="3182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="testBooking()[pri:1, instance:api.tests.BookingTests@8f4ea7c]" started-at="2023-04-20T12:44:57 IST" name="testBooking" finished-at="2023-04-20T12:44:59 IST" duration-ms="2048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBooking -->
+        <test-method signature="updateBookingTest()[pri:2, instance:api.tests.BookingTests@8f4ea7c]" started-at="2023-04-20T12:44:59 IST" name="updateBookingTest" finished-at="2023-04-20T12:45:01 IST" duration-ms="2227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBookingTest -->
+        <test-method signature="getBooking()[pri:3, instance:api.tests.BookingTests@8f4ea7c]" started-at="2023-04-20T12:45:01 IST" name="getBooking" finished-at="2023-04-20T12:45:03 IST" duration-ms="2040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBooking -->
+        <test-method signature="deleteBooking()[pri:4, instance:api.tests.BookingTests@8f4ea7c]" started-at="2023-04-20T12:45:03 IST" name="deleteBooking" finished-at="2023-04-20T12:45:05 IST" duration-ms="2041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBooking -->
+        <test-method signature="checkDeleteBooking()[pri:5, instance:api.tests.BookingTests@8f4ea7c]" started-at="2023-04-20T12:45:05 IST" name="checkDeleteBooking" finished-at="2023-04-20T12:45:07 IST" duration-ms="1943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDeleteBooking -->
+      </class> <!-- api.tests.BookingTests -->
+      <class name="api.tests.DataDrivenTest">
+        <test-method signature="createBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DataDrivenTest@5ffead27]" started-at="2023-04-20T12:44:41 IST" name="createBooking" data-provider="Data" finished-at="2023-04-20T12:44:45 IST" duration-ms="4685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ghosh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[lunch]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2023-04-20]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2023-04-24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBooking -->
+        <test-method signature="createBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DataDrivenTest@5ffead27]" started-at="2023-04-20T12:44:45 IST" name="createBooking" data-provider="Data" finished-at="2023-04-20T12:44:47 IST" duration-ms="2013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sumit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ghosh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dinner]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2023-04-21]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2023-04-25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBooking -->
+        <test-method signature="createBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DataDrivenTest@5ffead27]" started-at="2023-04-20T12:44:47 IST" name="createBooking" data-provider="Data" finished-at="2023-04-20T12:44:49 IST" duration-ms="1946" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Saptadipa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ghosh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[250]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[brakefast]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2023-04-22]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2023-04-26]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBooking -->
+        <test-method signature="createBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DataDrivenTest@5ffead27]" started-at="2023-04-20T12:44:49 IST" name="createBooking" data-provider="Data" finished-at="2023-04-20T12:44:52 IST" duration-ms="2248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samir]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[450]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sex]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2023-04-23]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2023-04-27]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBooking -->
+        <test-method signature="createBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DataDrivenTest@5ffead27]" started-at="2023-04-20T12:44:52 IST" name="createBooking" data-provider="Data" finished-at="2023-04-20T12:44:53 IST" duration-ms="1941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chandana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Subhra]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[300]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pros]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2023-04-24]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2023-04-28]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBooking -->
+      </class> <!-- api.tests.DataDrivenTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
