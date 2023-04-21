@@ -2,38 +2,38 @@
 <testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-20T13:19:59 IST" name="Suite" finished-at="2023-04-20T13:20:30 IST" duration-ms="31351">
+  <suite started-at="2023-04-21T10:32:56 IST" name="Suite" finished-at="2023-04-21T10:33:30 IST" duration-ms="34005">
     <groups>
     </groups>
-    <test started-at="2023-04-20T13:19:59 IST" name="Test" finished-at="2023-04-20T13:20:30 IST" duration-ms="31351">
+    <test started-at="2023-04-21T10:32:56 IST" name="Test" finished-at="2023-04-21T10:33:30 IST" duration-ms="34005">
       <class name="api.tests.BookingTests">
-        <test-method is-config="true" signature="setupData()[pri:0, instance:api.tests.BookingTests@41fbdac4]" started-at="2023-04-20T13:20:16 IST" name="setupData" finished-at="2023-04-20T13:20:20 IST" duration-ms="3903" status="PASS">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.tests.BookingTests@41fbdac4]" started-at="2023-04-21T10:33:13 IST" name="setupData" finished-at="2023-04-21T10:33:16 IST" duration-ms="3143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupData -->
-        <test-method signature="testBooking()[pri:1, instance:api.tests.BookingTests@41fbdac4]" started-at="2023-04-20T13:20:20 IST" name="testBooking" finished-at="2023-04-20T13:20:22 IST" duration-ms="2152" status="PASS">
+        <test-method signature="testBooking()[pri:1, instance:api.tests.BookingTests@41fbdac4]" started-at="2023-04-21T10:33:16 IST" name="testBooking" finished-at="2023-04-21T10:33:18 IST" duration-ms="2213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBooking -->
-        <test-method signature="updateBookingTest()[pri:2, instance:api.tests.BookingTests@41fbdac4]" started-at="2023-04-20T13:20:22 IST" name="updateBookingTest" finished-at="2023-04-20T13:20:24 IST" duration-ms="2020" status="PASS">
+        <test-method signature="updateBookingTest()[pri:2, instance:api.tests.BookingTests@41fbdac4]" started-at="2023-04-21T10:33:18 IST" name="updateBookingTest" finished-at="2023-04-21T10:33:21 IST" duration-ms="2990" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateBookingTest -->
-        <test-method signature="getBooking()[pri:3, instance:api.tests.BookingTests@41fbdac4]" started-at="2023-04-20T13:20:24 IST" name="getBooking" finished-at="2023-04-20T13:20:26 IST" duration-ms="2244" status="PASS">
+        <test-method signature="getBooking()[pri:3, instance:api.tests.BookingTests@41fbdac4]" started-at="2023-04-21T10:33:21 IST" name="getBooking" finished-at="2023-04-21T10:33:24 IST" duration-ms="2492" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getBooking -->
-        <test-method signature="deleteBooking()[pri:4, instance:api.tests.BookingTests@41fbdac4]" started-at="2023-04-20T13:20:26 IST" name="deleteBooking" finished-at="2023-04-20T13:20:28 IST" duration-ms="1841" status="PASS">
+        <test-method signature="deleteBooking()[pri:4, instance:api.tests.BookingTests@41fbdac4]" started-at="2023-04-21T10:33:24 IST" name="deleteBooking" finished-at="2023-04-21T10:33:27 IST" duration-ms="2865" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteBooking -->
-        <test-method signature="checkDeleteBooking()[pri:5, instance:api.tests.BookingTests@41fbdac4]" started-at="2023-04-20T13:20:28 IST" name="checkDeleteBooking" finished-at="2023-04-20T13:20:30 IST" duration-ms="2047" status="PASS">
+        <test-method signature="checkDeleteBooking()[pri:5, instance:api.tests.BookingTests@41fbdac4]" started-at="2023-04-21T10:33:27 IST" name="checkDeleteBooking" finished-at="2023-04-21T10:33:30 IST" duration-ms="2863" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDeleteBooking -->
       </class> <!-- api.tests.BookingTests -->
       <class name="api.tests.DataDrivenTest">
-        <test-method signature="createBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DataDrivenTest@19bb07ed]" started-at="2023-04-20T13:20:02 IST" name="createBooking" data-provider="Data" finished-at="2023-04-20T13:20:08 IST" duration-ms="5768" status="PASS">
+        <test-method signature="createBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DataDrivenTest@19bb07ed]" started-at="2023-04-21T10:32:58 IST" name="createBooking" data-provider="Data" finished-at="2023-04-21T10:33:04 IST" duration-ms="5829" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,7 +74,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createBooking -->
-        <test-method signature="createBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DataDrivenTest@19bb07ed]" started-at="2023-04-20T13:20:08 IST" name="createBooking" data-provider="Data" finished-at="2023-04-20T13:20:10 IST" duration-ms="2074" status="PASS">
+        <test-method signature="createBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DataDrivenTest@19bb07ed]" started-at="2023-04-21T10:33:04 IST" name="createBooking" data-provider="Data" finished-at="2023-04-21T10:33:06 IST" duration-ms="2070" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -115,7 +115,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createBooking -->
-        <test-method signature="createBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DataDrivenTest@19bb07ed]" started-at="2023-04-20T13:20:10 IST" name="createBooking" data-provider="Data" finished-at="2023-04-20T13:20:12 IST" duration-ms="2140" status="PASS">
+        <test-method signature="createBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DataDrivenTest@19bb07ed]" started-at="2023-04-21T10:33:06 IST" name="createBooking" data-provider="Data" finished-at="2023-04-21T10:33:08 IST" duration-ms="2453" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -156,7 +156,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createBooking -->
-        <test-method signature="createBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DataDrivenTest@19bb07ed]" started-at="2023-04-20T13:20:12 IST" name="createBooking" data-provider="Data" finished-at="2023-04-20T13:20:14 IST" duration-ms="2044" status="PASS">
+        <test-method signature="createBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DataDrivenTest@19bb07ed]" started-at="2023-04-21T10:33:08 IST" name="createBooking" data-provider="Data" finished-at="2023-04-21T10:33:11 IST" duration-ms="2249" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -197,7 +197,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createBooking -->
-        <test-method signature="createBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DataDrivenTest@19bb07ed]" started-at="2023-04-20T13:20:14 IST" name="createBooking" data-provider="Data" finished-at="2023-04-20T13:20:16 IST" duration-ms="2148" status="PASS">
+        <test-method signature="createBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.tests.DataDrivenTest@19bb07ed]" started-at="2023-04-21T10:33:11 IST" name="createBooking" data-provider="Data" finished-at="2023-04-21T10:33:13 IST" duration-ms="2453" status="PASS">
           <params>
             <param index="0">
               <value>
